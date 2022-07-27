@@ -1,6 +1,6 @@
 function Interests () {
     return(
-        <h1>Interests section</h1>
+        <p>Interests section</p>
     );
 }
 
