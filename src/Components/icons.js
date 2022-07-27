@@ -1,8 +1,0 @@
-/*
-FaLinkedin
-FaEnvelope
-FaTwitterSquare
-FaFacebookSquare
-FaInstagramSquare
-FaGithubSquare
-*/

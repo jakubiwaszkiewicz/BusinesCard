@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 * {
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
 }
 body {
     background-color: #23252C;
@@ -14,8 +14,11 @@ body {
     justify-content: space-between;
     max-width: 317px;
     background-color: #1A1B21;
-    margin: auto;
+    margin: 50px auto;
+    border: 10px solid none;
+    border-radius: 10px;
 }
+/*Header section*/
 header {
     display: flex;
     flex-flow: column nowrap;
@@ -71,4 +74,35 @@ header .header--icon {
 header span {
     margin-top: auto;
     margin-bottom: auto;
+}
+/*About section*/
+section {
+    margin: 1em 2.75em 0 2.75em;
+}
+.interests {
+    margin:0 2.75em;
+}
+section h4 {
+    font-weight: 600;
+    margin-bottom: 0.25em;
+    color: #F5F5F5;
+
+}
+section p {
+    color: #DCDCDC;
+    margin: 0;
+    font-size: 10px;
+}
+footer {
+    width: 100%;
+    background-color: #161619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer--icon {
+    font-size: 25px;
+    color: #918E9B;
+    margin: 10px;
+
 }

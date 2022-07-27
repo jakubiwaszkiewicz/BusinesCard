@@ -1,5 +1,6 @@
 import { FaLinkedin ,FaEnvelope } from "react-icons/fa";
 import MySelf from '../myself.jpg'
+import '../style.css';
 
 function Info () {
     return(
