@@ -6,10 +6,11 @@ function Info () {
         <header>
             <img src={MySelf} alt="Yes, He's Me!" className="info--img" />
             <h1>Jakub Iwaszkiewicz</h1>
-            <p>jakubiwaszkiewicz.website</p>
-            <div className="buttons">
-                <button> <FaEnvelope />Email</button>
-                <button> <FaLinkedin />Linkedin</button>
+            <p className="header--title">Frontend Developer</p>
+            <p className="header--website">jakubiwaszkiewicz.website</p>
+            <div className="header--buttons">
+                <button className="header--envelope"><FaEnvelope className="header--icon"/><span>Email</span></button>
+                <button className="header--linkedin"><FaLinkedin className="header--icon"/><span>Linkedin</span></button>
             </div>
         </header>
     );

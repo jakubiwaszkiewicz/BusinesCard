@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -5,6 +6,7 @@ body {
     background-color: #23252C;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 .container {
     display: flex;
@@ -26,8 +28,47 @@ header .info--img {
     height: 317px;
 }
 header h1 {
-    margin: 0;
+    margin: 0.5em 0 0 0;
+    color: white;
+    font-size: 25px;
 }
 header p {
     margin: 0;
+}
+header .header--title {
+    color: #F3BF99;
+    font-size: 12px;
+}
+header .header--website {
+    margin-top: 0.75em;
+    color: #F5F5F5;
+    font-size: 10px;
+}
+header .header--buttons {
+    margin-top: 0.75em;
+
+}
+header button {
+    width: 115px;
+    border-radius: 5px;
+    border-width: 0;
+    font-size: 12px;
+    padding: 9px 13px 9px 11px;
+
+}
+header .header--envelope {
+    margin-right: 4px;
+}
+header .header--linkedin {
+    margin-left: 4px;
+    background-color: #5093E2;
+    color: white;
+}
+header .header--icon {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+header span {
+    margin-top: auto;
+    margin-bottom: auto;
 }
