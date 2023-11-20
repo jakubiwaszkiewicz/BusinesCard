@@ -1,20 +1,33 @@
-import { FaLinkedin ,FaEnvelope } from "react-icons/fa";
-import MySelf from '../myself.jpg'
-import '../style.css';
+import { FaLinkedin, FaEnvelope } from "react-icons/fa";
+import MySelf from "../myself.jpg";
+import "../style.css";
+import madzia from "../madzia.jpg";
 
-function Info () {
-    return(
-        <header>
-            <img src={MySelf} alt="Yes, He's Me!" className="info--img" />
-            <h1>Jakub Iwaszkiewicz</h1>
-            <p className="header--title">Frontend Developer</p>
-            <p className="header--website">jakubiwaszkiewicz.website</p>
-            <div className="header--buttons">
-                <button className="header--envelope"><FaEnvelope className="header--icon"/><span>Email</span></button>
-                <button className="header--linkedin"><FaLinkedin className="header--icon"/><span>Linkedin</span></button>
-            </div>
-        </header>
-    );
+function Info() {
+  return (
+    <header>
+      <img src={madzia} alt="Yes, He's Me!" className="info--img" />
+      <h1>Magdalena Całus</h1>
+      <p className="header--title">Architect</p>
+      <p className="header--website">magdalenacalus.website</p>
+      <div className="header--buttons">
+        <a
+          className="header--envelope button-social"
+          href="mailto:magdalena.calus21@gmail.com"
+        >
+          <FaEnvelope className="header--icon" />
+          <span>Email</span>
+        </a>
+        <a
+          className="header--linkedin button-social"
+          href="https://www.linkedin.com/in/magdalena-ca%C5%82us-5000a8269/"
+        >
+          <FaLinkedin className="header--icon" />
+          <span>Linkedin</span>
+        </a>
+      </div>
+    </header>
+  );
 }
 
-export default Info
+export default Info;
