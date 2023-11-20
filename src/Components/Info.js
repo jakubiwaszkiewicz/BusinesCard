@@ -1,12 +1,11 @@
 import { FaLinkedin, FaEnvelope } from "react-icons/fa";
-import MySelf from "../myself.jpg";
 import "../style.css";
-import madzia from "../madzia.jpg";
+import MySelf from "../madzia.jpg";
 
 function Info() {
   return (
     <header>
-      <img src={madzia} alt="Yes, He's Me!" className="info--img" />
+      <img src={MySelf} alt="Yes, He's Me!" className="info--img" />
       <h1>Magdalena Całus</h1>
       <p className="header--title">Architect</p>
       <p className="header--website">magdalenacalus.website</p>
